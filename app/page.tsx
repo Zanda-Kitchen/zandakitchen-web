@@ -71,7 +71,7 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Image
-              src="/zk-logo.svg"
+              src="/zk-logo.png"
               alt="Zanda Kitchen logo"
               width={32}
               height={32}
@@ -98,7 +98,7 @@ export default function LandingPage() {
             className="mb-8 inline-block"
           >
             <Image
-              src="/zk-logo.svg"
+              src="/zk-logo.png"
               alt="Zanda Kitchen"
               width={196}
               height={196}
