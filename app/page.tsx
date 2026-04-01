@@ -172,7 +172,8 @@ export default function LandingPage() {
         </div>
 
         {/* Ambient glow */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-150 rounded-full bg-accent/5 blur-[120px] pointer-events-none" />
+        {/* Reduced from blur-[120px] — large-radius blur causes rendering artifacts on Safari/iOS */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-150 rounded-full bg-accent/5 blur-2xl pointer-events-none" />
       </section>
 
       {/* Features */}
@@ -338,7 +339,7 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
             <Image
-              src="/zk-logo.svg"
+              src="/zk-logo.png"
               alt="Zanda Kitchen"
               width={24}
               height={24}

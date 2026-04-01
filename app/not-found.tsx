@@ -13,7 +13,7 @@ export default function NotFound() {
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center">
           <Link href="/" className="flex items-center gap-3">
             <Image
-              src="/zk-logo.svg"
+              src="/zk-logo.png"
               alt="Zanda Kitchen logo"
               width={32}
               height={32}

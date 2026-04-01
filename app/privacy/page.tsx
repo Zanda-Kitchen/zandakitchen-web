@@ -15,7 +15,7 @@ export default function PrivacyPage() {
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
             <Image
-              src="/zk-logo.svg"
+              src="/zk-logo.png"
               alt="Zanda Kitchen logo"
               width={32}
               height={32}
@@ -177,7 +177,7 @@ export default function PrivacyPage() {
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <Image
-              src="/zk-logo.svg"
+              src="/zk-logo.png"
               alt="Zanda Kitchen"
               width={24}
               height={24}
