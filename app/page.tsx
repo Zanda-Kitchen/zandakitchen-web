@@ -171,9 +171,11 @@ export default function LandingPage() {
           </motion.div>
         </div>
 
-        {/* Ambient glow */}
-        {/* Reduced from blur-[120px] — large-radius blur causes rendering artifacts on Safari/iOS */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-150 rounded-full bg-accent/5 blur-2xl pointer-events-none" />
+        {/* Radial gradient glow — replaces CSS blur which caused boxy artifacts on Safari/iOS */}
+        <div
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-150 pointer-events-none"
+          style={{ background: "radial-gradient(ellipse at center, hsl(0 0% 75% / 0.06) 0%, transparent 70%)" }}
+        />
       </section>
 
       {/* Features */}
